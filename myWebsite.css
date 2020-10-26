@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+@media(min-device-width-600px){
+
+}
+
+body{
+    background-color:#4F4F4F;
+}
+.logo{
+  color: white;
+  display: inline;
+}
+
+.logo img {
+  height: 100px;
+  float: right;
+}
+
+body, html {
+  height: 100%;
+}
+/* The hero image */
+.hero-image {
+  
+  background-image: url("img/heroimage.jpg");
+    
+  /* Set a specific height */
+  height: 50%;
+  width: 100%;
+    
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding:44px;
+}
+
+.hero-image h1 {
+  /* title styles */
+  color:darkgrey;
+  text-align:left;
+  font-size: -1em ;
+  padding-top: 3em;
+}
+
+p{
+    color:whitesmoke;
+    text-align:center;
+    font-family:'Playfair Display',serif; 
+  }
+.about-section p{
+  color:whitesmoke;
+}
+div.scrollmenu {
+  overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 22px;
+    text-decoration: none;
+    margin: 8px 32px;
+
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: #FF87B7;
+  }
+  
+  .img-wrapper h1{
+    text-decoration-line: underline;
+    text-align:center;
+    font-size:30px;
+    font-family:'Playfair Display',serif;
+    color:whitesmoke;
+    margin-top: 85px;
+  }
+  .img-wrapper h3{
+    font-family: 'Playfair Display',serif;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: -40px;
+  }
+ 
+.img-area{
+  display: flex;
+  flex-direction: row;     
+}
+  .img-area .single-img{
+
+    width:300px;
+    margin:10px;
+    height: 200px;
+    text-align: left;
+    line-height: 75px;
+    
+  }
+  .single-img:hover{
+    opacity: .5;
+    transition: .9s;
+  }
+
+  .profile-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .title {
+    color: white;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #FF87B7;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+
+  h1{
+    text-align: center;
+    color:white;
+    font-family: 'Playfair Display', serif;
+  }
+
+  h3{
+    text-align: center;
+    color:#FF87B7
+  }
+
+footer{
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  background-color: #FF87B7;
+  padding:24px;
+}
+
+.wrapper a{
+  display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 22px;
+    text-decoration: none;
+    margin: 8px 32px;
+}
+
+ul li a{
+  color:whitesmoke;
+}
+
+form{
+  color: whitesmoke;
+}
+.goal h1{
+  text-decoration-line: underline;
+  margin-top: 100px;
+}
